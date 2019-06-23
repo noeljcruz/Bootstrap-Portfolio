@@ -2,39 +2,66 @@
 <html lang="en">
 
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="C:\Users\njcru\coding\homework\week2\Bootstrap-Portfolio\assets\css\style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
   <title>About Me</title>
+
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo">Noel J Cruz</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
-      </div>
-    </nav>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
+
+  <main class="container">
+    <section class="row">
+      <div class="col-md-12">
+        <article class="block">
+          
+          <h1 class="block-header">About Me</h1>
+
+          <hr>
+
+          <img id="about-image" src="assets/images/20190612_171055.jpg" alt="My picture">
+
+          <p>Nulla nisl metus, ultricies ac semper vitae, suscipit eget diam. Donec sed varius enim. Sed egestas justo
+            eu leo blandit tincidunt. Cras vitae velit convallis lorem euismod interdum. Vivamus diam turpis, hendrerit
+            sit amet nibh eget, efficitur dictum nunc. In scelerisque ante id risus sodales feugiat. Maecenas suscipit,
+            velit eget facilisis tempor, metus lectus porta lectus, ac efficitur dui diam at diam. Nulla dignissim eros
+            ut nunc dictum lobortis. Mauris luctus, tellus vitae volutpat feugiat, massa est varius enim, sit amet
+            euismod dui magna vitae dui. Proin pulvinar tortor rutrum venenatis eleifend. Sed rhoncus nec mauris ac
+            volutpat. Vestibulum tempor odio ut bibendum eleifend. Aliquam orci eros, rutrum sed lacus eu, pharetra
+            luctus ex.</p>
+
+        </article>
+      </div>
+    </section>
+  </main>
+
 </body>
 
 </html>
